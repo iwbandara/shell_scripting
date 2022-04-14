@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @iwbandara
-- 👀 I’m interested in Linux System Administration and Netowrk Administration
+- 👀 I’m interested in Linux System Administration and Network Administration
 - 🌱 I’m currently learning Pententing
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate on Penetration Testing & Linux System & Netowrk Administration
+- 📫 You can reach me on iwbandara@gmail.com
 
 <!---
 iwbandara/iwbandara is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
