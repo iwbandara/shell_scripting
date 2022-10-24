@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @iwbandara
 - 👀 I’m interested in Linux System Administration and Network Administration
-- 🌱 I’m currently learning Pententing
-- 💞️ I’m looking to collaborate on Penetration Testing & Linux System & Netowrk Administration
+- 🌱 I’m currently learning Network Automation
+- 💞️ I’m looking to collaborate on Network Automation & Linux System & Netowrk Administration
 - 📫 You can reach me on iwbandara@gmail.com
 
 <!---
