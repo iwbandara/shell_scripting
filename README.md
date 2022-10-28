@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @iwbandara
 - 👀 I’m interested in Linux System Administration and Network Administration
 - 🌱 I’m currently learning Network Automation
-- 💞️ I’m looking to collaborate on Network Automation & Linux System & Netowrk Administration
+- 💞️ I’m looking to collaborate on Network Automation & Linux System & Network Administration
 - 📫 You can reach me on iwbandara@gmail.com
 
 <!---
