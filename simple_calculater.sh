@@ -12,19 +12,23 @@ do
    case "$option" in
    Addition)
       numbers
-      echo "Addition of $NUM1 and $NUM2 is : $((NUM1+NUM2))"
+      result=$((NUM1+NUM2))
+      echo "Addition of $NUM1 and $NUM2 is : $result"
       ;;
    Substraction)
       numbers
-      echo "Subtraction of $NUM1 and $NUM2 is : $((NUM1-NUM2))"
+      result=$((NUM1-NUM2))
+      echo "Subtraction of $NUM1 and $NUM2 is : $result"
       ;;
    Multiplication)
       numbers
-      echo "Multiplication of $NUM1 and $NUM2 is : $((NUM1*NUM2))"
+      result=$((NUM1*NUM2))
+      echo "Multiplication of $NUM1 and $NUM2 is : $result"
       ;;
    Division)
       numbers
-      echo "Division of $NUM1 by $NUM2 is : $((NUM1/NUM2))"
+      result=$((NUM1/NUM2))
+      echo "Division of $NUM1 by $NUM2 is : $result"
       ;;
    Exit)
       echo "Exiting the program..."
