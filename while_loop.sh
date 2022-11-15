@@ -28,3 +28,13 @@ do
 	((count++))
 done
 
+# Use of 'sleep' in while loop
+# this will pause the next iteration for the specified time duration in seconds
+
+count=1
+while [ $count -le 10 ]
+do
+	echo $count
+	((count++))
+	sleep 2 # pause for 2 seconds before executing the next iteration
+done
