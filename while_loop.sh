@@ -1,4 +1,7 @@
 #!/bin/bash
+# Author: Indika W Bandara
+# LastEdited: 2022-11-15
+# Version: 1.0.1
 
 # Use of WHILE loop to display numbers from 1 to 10
 
