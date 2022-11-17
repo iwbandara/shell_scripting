@@ -1,10 +1,12 @@
 #!/bin/bash
 
-#for x in `seq 10 5 30`; 
-#do
-#	echo $x
-#done
+# Use of seq command with for loop
+for x in `seq 10 5 30`; 
+do
+	echo $x
+done
 
+# Use of a set of commands and display their output with for loop
 for command in ls pwd date whoami
 do
 	echo "--------$command--------"
