@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#for x in `seq 10 5 30`; 
+#do
+#	echo $x
+#done
+
+for command in ls pwd date whoami
+do
+	echo "--------$command--------"
+	$command
+done
