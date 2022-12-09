@@ -25,4 +25,5 @@ else
    else
       echo "There are more than two arguments entered."
    fi
+   echo -e "\nAll of the arguments are : $*"
 fi
