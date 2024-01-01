@@ -18,3 +18,16 @@
   }
 
   display_message
+
+=> Local variables are defined inside a function and can only be accessed within that function, while global variables are defined outside a function that can be accessed and modified by any part of the script.
+
+=> It is generally a good practice to use local variables whenever possible and only use global variables when necessary.
+
+=> Example:
+
+    text="Welcome to Shell Scripting variables." // use of global variables. they are declared outside the functions.
+
+    display_message(){
+        local message="Welcome to Shell Scripting." // use of local variables
+        echo "$message"
+    }
