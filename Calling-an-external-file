@@ -1,0 +1,16 @@
+=> Create the functions file and save it. Only functions should be included.
+
+=> Use "source /path/to/file.sh" to import the file to the script.
+
+=> Then use the function name to call it inside the script.
+
+=> External file (message_file.sh):
+  display_message(){
+    echo "Hello"
+  }
+=> Script file:
+      #!/bin/bash
+      source message_file.sh
+
+      display_message
+  // This file will output "Hello"
