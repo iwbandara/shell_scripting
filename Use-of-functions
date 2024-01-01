@@ -1,0 +1,20 @@
+=> What is a function?
+    Function is a set of code which can be used repeatedly without re-writing.
+    They help us to save time, minimize errors and save space in a script
+
+=> How to create a function:
+    function_name() {
+      statement_1
+      statement_2
+    }
+
+=> Calling a function:
+    function_name
+
+=> Example:
+
+  display_message(){
+    echo "Welcome to Shell Scripting."
+  }
+
+  display_message
