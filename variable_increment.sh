@@ -18,6 +18,6 @@ a=1
 
 while [ $a -le 5 ]
 do
-	echo "i value is : $a"
-	((a=a+1))
+	echo "a value is : $a"
+	((a=a+1)) // or a=$((a+1)) or let "a=a+1"
 done
