@@ -21,7 +21,7 @@ fi
 
 echo "============ Method II ============"
 # Method II to read a file content using 'while' loop
-
+n=1
 cat $filename | while read line
 do
     echo "Line no. $n : $line"
