@@ -1,3 +1,13 @@
 # All scripts should begin with a shebang, which defines the path to the interpreter.
 
 # All scripts should include comments to describe their use.
+
+Pattern Matching:
+-----------------
+
+  * -> matches any string, including null
+  ? -> matches any single character
+  [character class] -> matches any one of the characters enclosed between [ and ].
+  [^...] -> matches the complement (any character not in the class)
+  [a-z] -> matches the range of characters from a to z
+  [[:class;]] -> matches according to these POSIX classes: alnum, alpha, ascii, blank, cntrl, digit, graph, lower, punct, space
