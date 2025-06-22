@@ -1,11 +1,17 @@
 #!/bin/bash
 
+#------------------------------------------------------------------------
+# Example 01
+#------------------------------------------------------------------------
 # Use of seq command with for loop
 for x in `seq 10 5 30`; 
 do
 	echo $x
 done
 
+#------------------------------------------------------------------------
+# Example 02
+#------------------------------------------------------------------------
 # Use of a set of commands and display their output with for loop
 for command in ls pwd date whoami
 do
@@ -13,6 +19,9 @@ do
 	$command
 done
 
+#------------------------------------------------------------------------
+# Example 03
+#------------------------------------------------------------------------
 # Listing all directories using for loop
 
 for item in *
@@ -21,4 +30,16 @@ do
    then
       echo $item
    fi
+done
+
+#------------------------------------------------------------------------
+# Example 04
+#------------------------------------------------------------------------
+# List users & the groups they are members of
+
+for user in $(getent passwd | cut -d: -f1)
+do
+	user_groups=$(groups $user | cut -d: -f1)
+
+	echo "User $user is a member of $user_groups"
 done
