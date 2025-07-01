@@ -27,3 +27,14 @@ unset str_array[1] # removes the second element of the array
 
 # Creating a new array form a command output
 ls_array=($(ls)) #creates an array from the output of 'ls' command
+
+# Method II of defining an Array
+
+fruits[0]="Apples"
+fruits[1]="Mangoes"
+fruits[2]="Berries"
+fruits[3]="Avacado"
+
+echo ${fruits[0]} # will display the 'Apples' as the output
+
+echo "${#fruits[@]}" # will display the value 4 as the output
