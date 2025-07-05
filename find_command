@@ -1,0 +1,19 @@
+-> The find command in Linux is a powerful tool used to search for files and directories within a specified path based on different criteria. Moreover, it allows users to locate files by name, type, size, permissions, and more, making the tool essential for file management and system administration.
+
+-> Syntax;
+
+    find [options] [path] [expression]  
+
+-> How to find files in the current directory;
+
+    # find . -type f
+
+-> How to find directories in the current directory;
+
+    # find . -type d
+
+-> How to find a file based on its size;
+
+    # find / -type f -size +1K (looks for files with size over 1K)
+
+->
