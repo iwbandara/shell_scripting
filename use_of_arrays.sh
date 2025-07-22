@@ -38,3 +38,8 @@ fruits[3]="Avacado"
 echo ${fruits[0]} # will display the 'Apples' as the output
 
 echo "${#fruits[@]}" # will display the value 4 as the output
+
+# How to iterate through elements of an array
+  for fruit in ${fruits[@]}; do
+    echo $fruit
+  done
