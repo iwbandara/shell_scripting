@@ -1,0 +1,38 @@
+Options:
+
+  => -f: This is a test operator that returns true if the specified path exists and is a regular file.
+
+  => -d: checks if a directory exists
+
+  => -e: checks if any file or directory exists
+
+  => -s: checks if a file exists and is not empty.
+
+-------------------------------------------------------------------------------
+
+Script to check the file availability:
+
+#!/bin/bash
+
+read -p "Enter the file name (including the path): " file_name
+
+if [ -f $file_name ]; then
+	echo "File found."
+else
+	echo "File not found. Creating the file at mentioned location"
+	$(touch $file_name)
+fi
+
+-------------------------------------------------------------------------------
+
+Script to check the availability of a directory:
+
+#!/bin/bash
+
+read -p "Enter the directory name: " dir_name
+
+if [ -d $dir_name ]; then
+    echo "Directory found."
+else
+    echo "Directory not found."
+fi
