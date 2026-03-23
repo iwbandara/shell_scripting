@@ -1,0 +1,8 @@
+# All scripts should begin with a shebang, which defines the path to the interpreter.
+
+# All scripts should include comments to describe their use.
+
+# File format:
+
+ #!/bin/bash
+ echo "Welcome to Shell Scripting"
