@@ -31,3 +31,17 @@
         local message="Welcome to Shell Scripting." // use of local variables
         echo "$message"
     }
+
+=> Use of parameters;
+
+    Arguments can be feed as the parameters in a function.
+
+    Example:
+
+        display_name(){
+            echo "Your name is: $1"
+        }
+
+        display_name 
+
+        $bash file.sh Indika //This will display, "Your name is: Indika"
