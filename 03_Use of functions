@@ -42,6 +42,4 @@
             echo "Your name is: $1"
         }
 
-        display_name 
-
-        $bash file.sh Indika //This will display, "Your name is: Indika"
+        display_name Indika
