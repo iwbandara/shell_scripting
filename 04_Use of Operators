@@ -1,0 +1,23 @@
+#Types of operators
+
+#Arithmetic, Relational, Boolean, String, and File Test operators
+
+#Arithmetic Operators:
+
+value1=100
+value2=20
+
+add=`expr $value1 + value2`
+echo "$value1 + $value2 = $add"
+
+sub=`expr $value1 - value2`
+echo "$value1 - $value2 = $sub"
+
+multi=`expr $value1 \* value2`
+echo "$value1 * $value2 = $multi"
+
+div=`expr $value1 / value2`
+echo "$value1 / $value2 = $div"
+
+mod=`expr $value1 % value2`
+echo "$value1 % $value2 = $mod"
