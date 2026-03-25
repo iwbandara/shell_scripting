@@ -25,5 +25,9 @@ else
    else
       echo "There are more than two arguments entered."
    fi
-   echo -e "\nAll of the arguments are : $*"
+      echo -e "\nAll of the arguments are : $*"
 fi
+
+echo "Process ID of the script when running: $$"
+
+echo "Exit code of the script: $?"
